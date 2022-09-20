@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { store } from "./redux/store";
 import { Provider } from "react-redux"; // redux'da yaptıklarımızı react componentlerine bağlamak için kullanıyoruz
-
+<span>asdsdsdasd</span>
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
