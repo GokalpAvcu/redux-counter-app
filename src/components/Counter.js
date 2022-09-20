@@ -11,7 +11,7 @@ function Counter(){
         <div>
             <h1>{countValue}</h1>
 
-            <button onClick={()=> dispatch(decrement())}>Decrement</button>
+            <button onClick={()=> dispatch(decrement())}>Decrement</button> {/* dispatch'e yazmış olduğumuz action'ı (decrement) parametre olarak verdik */}
             <button onClick={() => dispatch(increment())}>Increment</button>
             
 

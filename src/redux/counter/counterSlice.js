@@ -19,10 +19,9 @@ export const counterSlice = createSlice({
     decrement: (state) => {
       // decrement fonskiyonu oluşturduk
       state.value -= 1; // state.value key'inin değerini 1 azalttık
-    }
+    },
   },
 });
 
-export const {increment} = counterSlice.actions; // dışarıya export ettik
-export const {decrement} = counterSlice.actions; // dışarıya export ettik
+export const { increment, decrement } = counterSlice.actions; // increment ve decrement fonksiyonlarını dışa aktardık
 export default counterSlice.reducer; // burda dışa aktardığımız reducer'ı store'a bağlamak için kullanacağım
